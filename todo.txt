@@ -1,0 +1,37 @@
+- TYPES OF CSS
+- SELECTORS [PRIORITY]
+- FONT FAMILY
+- FONT STYLE
+- COLOR
+- FONT WEIGHT
+- TEXT DECORATION
+- PX VS EM VS REM
+- line-height 
+- color [rgb,hex,rgba,hsl,hsla]
+- cdn
+- font awesome
+- border
+- border-radius
+- margin
+- padding
+- background-image /repeat/size/position
+- display property
+- block, inline, inline-block
+- position [static,relative,absolute,sticky,fixed]
+- visibility
+- z-index
+- filter
+- font [style,weight,variant,line-height]
+- gradiant [linear , radial]
+- styling lists [list-style-[type/position/image]]
+- float and clear
+- text shadow
+- box shadow
+- link and button styling
+- animation
+- transition
+- transformation
+- pseudo selectors [>, + , ::before, ::after, nth-child, input[],]
+- media queries
+- flex display
+- grid display

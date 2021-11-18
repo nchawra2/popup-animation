@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <button>add lists</button>
+      <div class="box hidden">
+        <input type="text" placeholder="ENTER THE ITEM" />
+        <button class="close">ADD</button>
+      </div>
+    </div>
+
+    <script>
+      document
+        .getElementsByTagName("button")[0]
+        .addEventListener("click", () => {
+          document.querySelector(".box").classList.remove("hidden");
+        });
+
+      document.querySelector(".close").addEventListener("click", () => {
+        document.querySelector(".box").classList.add("hidden");
+      });
+    </script>
+  </body>
+</html>
