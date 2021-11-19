@@ -24,7 +24,11 @@
         });
 
       document.querySelector(".close").addEventListener("click", () => {
-        document.querySelector(".box").classList.add("hidden");
+        document.querySelector(".box").classList.add("popout");
+        setTimeout(() => {
+          document.querySelector(".box").classList.add("hidden");
+          document.querySelector(".box").classList.remove("popout");
+        }, 300);
       });
     </script>
   </body>

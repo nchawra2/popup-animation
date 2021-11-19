@@ -69,3 +69,20 @@ input {
     left: 33%;
   }
 }
+
+.popout {
+  animation: popout .3s ease-in;
+}
+
+
+@keyframes popout {
+  from {
+    bottom: 40%;
+    left: 33%;
+  }
+
+  to {
+    left: 33%;
+    bottom: 35%;
+  }
+}
